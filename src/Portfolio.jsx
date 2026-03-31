@@ -900,7 +900,7 @@ function Experience() {
               style={{ background: "var(--card-bg)", borderRadius: 20, padding: "28px 28px", border: "1px solid var(--border)" }}>
               <div style={{ display: "flex", flexWrap: "wrap", alignItems: "flex-start", justifyContent: "space-between", gap: 12, marginBottom: 8 }}>
                 <div>
-                  <span style={{ fontSize: "0.7rem", fontWeight: 700, padding: "3px 10px", borderRadius: 999, background: `${ex.color} opacity-20`, color: "#fff", background: "linear-gradient(135deg, var(--accent), var(--accent2))", marginBottom: 10, display: "inline-block" }}>{ex.type}</span>
+                  <span style={{ fontSize: "0.7rem", fontWeight: 700, padding: "3px 10px", borderRadius: 999, color: "#fff", background: "linear-gradient(135deg, var(--accent), var(--accent2))", marginBottom: 10, display: "inline-block" }}>{ex.type}</span>
                   <h3 style={{ fontFamily: "Syne", fontWeight: 800, fontSize: "1.15rem", color: "var(--text)", marginTop: 8 }}>{ex.role}</h3>
                   <p style={{ fontWeight: 700, color: "var(--accent)", fontSize: "0.9rem", marginTop: 4 }}>{ex.company}</p>
                 </div>
